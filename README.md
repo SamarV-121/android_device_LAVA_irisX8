@@ -37,7 +37,7 @@ Based on Stock Kitkat kernel (3.4.67)
   * cd device/LAVA/irisX8/patches
   * source apply.sh 
   * source build/envsetup.sh
-  * brunch iris_x8
+  * brunch irisX8
   * Done :)
   
   # Credits/Thanks to:-
