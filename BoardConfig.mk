@@ -17,8 +17,6 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 
 TARGET_LDPRELOAD := libxlog.so
 
-# prebuilt chromium 
-PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := mt6592
