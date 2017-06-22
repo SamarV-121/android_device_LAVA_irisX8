@@ -42,12 +42,13 @@ Based on Stock Lollipop Kernel (3.10.72)
   
   # Credits/Thanks to:-
   * Hyperion70
-  * Besik_13
+  * Dee3000
+  * Besik_13  
+  * olge.svs 
   * vova.vafin  
   * fastchip 
   * vgdn1942 
   * Nchashin 
-  * olge.svs 
   * Roma193  
   * Vasili82
   * & Me :)
