@@ -165,9 +165,6 @@ PRODUCT_PACKAGES += \
         libfmmt6630 \
         libfmcust 
 
-# MTK's Engineer Mode
-PRODUCT_PACKAGES += \
-        EngineerMode
 
 # Other Apps
 PRODUCT_PACKAGES += \
