@@ -1,15 +1,12 @@
 ## TWRP device tree for Lava Iris X8 (irisX8)
+3.4.67 Kenrel
+ 
+`Cloning Trees`
 
-Add to `.repo/local_manifests/irisX8.xml`:
-
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	<project path="device/lava/irisX8" name="android_device_lava_irisX8" remote="hejsekvojtech" revision="android-5.1" />
-</manifest>
+```sh
+git clone https://github.com/SamarV-121/android_device_LAVA_irisX8.git -b TWRP device/lava/irisX8
 ```
 
-Then run `repo sync` to check it out.
 
 To build:
 
