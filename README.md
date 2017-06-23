@@ -1,5 +1,5 @@
 ## TWRP device tree for Lava Iris X8 (irisX8)
-3.4.67 Kenrel
+3.4.67 Kernel
  
 `Cloning Trees`
 
