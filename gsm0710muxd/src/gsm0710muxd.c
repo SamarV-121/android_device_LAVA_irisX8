@@ -3412,7 +3412,7 @@ int main(int argc, char *argv[])
 	/* Two types of error causes returned from watchdog(): GSM0710MUXD_OPEN_SERIAL_DEV_ERR and GSM0710MUXD_CREATE_THREAD_ERR */
 	if (main_exit_signal != 0) {
 		/* MUXd receives the abnormal termination signal, it should finalize its context */
-		SYSCHECK(shutdown_devices(SHUTDOWN_DEV_W_ACTIVE_FINALIZED));
+		SYSCHECK_NORET(shutdown_devices(SHUTDOWN_DEV_W_ACTIVE_FINALIZED));
 	} else if (rc == GSM0710MUXD_OPEN_SERIAL_DEV_ERR || rc == GSM0710MUXD_CREATE_THREAD_ERR) {
 		/* SHUTDOWN_DEV_WO_ACTIVE_FINALIZED: It will send a CLD Rsp to the modem side */
 		SYSCHECK(shutdown_devices(SHUTDOWN_DEV_W_ACTIVE_FINALIZED));
